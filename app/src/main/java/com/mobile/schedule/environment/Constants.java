@@ -5,5 +5,8 @@ package com.mobile.schedule.environment;
  * Description : <br>
  * 描述
  */
-public class Constants {
+public final class Constants {
+    //学期类型
+    public static final int TERM_TYPE_FIRST = 0;
+    public static final int TERM_TYPE_SECOND = 1;
 }
