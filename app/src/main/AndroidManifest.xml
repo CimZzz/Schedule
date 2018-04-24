@@ -10,12 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.login.LoginUI">
+        <activity android:name=".ui.login.LoginUI"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ui.student.StudentUI"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboard">
         </activity>
     </application>
 

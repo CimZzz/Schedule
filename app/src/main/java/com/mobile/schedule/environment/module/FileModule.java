@@ -15,7 +15,7 @@ public class FileModule extends IModule {
     public FileModule(Context context) {
         super(context);
         if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED))
-            rootDir = Environment.getExternalStorageDirectory().toString() + File.separator + "yiqimmm";
+            rootDir = Environment.getExternalStorageDirectory().toString() + File.separator + "schedule";
         else rootDir = context.getFilesDir().getPath();
     }
 

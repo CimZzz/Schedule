@@ -9,8 +9,6 @@ import java.util.concurrent.Executors;
 
 /**
  * Created by CimZzz on 28/12/2017.<br>
- * Project Name : YIQIMMM<br>
- * Since : YIQIMMM_1.88<br>
  * Description:<br>
  */
 public class ThreadPoolModule extends IModule {

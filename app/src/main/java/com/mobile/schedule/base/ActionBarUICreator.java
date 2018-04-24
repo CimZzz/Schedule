@@ -2,12 +2,7 @@ package com.mobile.schedule.base;
 
 /**
  * Created by CimZzz on 16/6/26.<br>
- * Project Name : Virtual-Lightning Simple2Develop<br>
- * Since : VLSimple2Develop_0.0.3<br>
- * Modify : VLSimple2Develop_0.2.4 添加是否显示工具栏选项<br>
  * Description:<br>
- * 界面生成器
- * 包装了一些生成界面所需必要的属性和额外的属性
  */
 @SuppressWarnings("unused")
 public class ActionBarUICreator {
